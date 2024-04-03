@@ -1,0 +1,1 @@
+# Calculate append=skip env=install ac_install_merge==on&&os_root_type==hdd||ac_install_live==on&&os_root_type==livecd
