@@ -1,4 +1,4 @@
-# adrien-overlay
+# cldt-overlay
 
 ## Install
 
@@ -6,7 +6,7 @@
 
 Make sure /etc/portage/repos.conf directory exists, and make sure dev-vcs/git and app-eselect/eselect-repository installed.
 
-*eselect repository add adrien-overlay git https://github.com/aaaaadrien/adrien-overlay.git*
+*eselect repository add cldt-overlay git https://github.com/vmtlw/cldt-overlay.git*
 
 ## Note for Calculate Linux
 
