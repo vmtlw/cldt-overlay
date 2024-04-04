@@ -21,4 +21,5 @@ x11-terms/alacritty
 www-client/chromium
 sys-libs/gpm
 app-misc/ranger
+media-fonts/terminus-font
 
