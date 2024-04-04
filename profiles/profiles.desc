@@ -10,7 +10,5 @@
 # AMD64 Profiles
 amd64		CLDT/amd64/20					stable
 
-# x86 Profiles
-x86		CLDT/x86/20					exp
 
 # vim: set ts=8
