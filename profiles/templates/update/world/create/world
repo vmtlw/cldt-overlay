@@ -1,8 +1,25 @@
 # Calculate format=world name=world
-
-#?in(os_linux_pkglist, CLDT)!=#
-media-fonts/terminus-font
+app-containers/docker
+app-containers/docker-compose
+app-containers/lxc
+app-editors/vim
+app-editors/vscode
+app-misc/brightnessctl
+app-misc/jq
 app-misc/tmux
+app-shells/bash-completion
+app-shells/bash-completion
+app-shells/fzf
 app-text/tree
+gui-apps/slurp
+gui-apps/wl-clipboard
+gui-libs/xdg-desktop-portal-hyprland
+gui-wm/hyprland
+media-fonts/terminus-font
+media-gfx/qrencode
+media-sound/playerctl
+media-video/pipewire
+sys-apps/xdg-desktop-portal-gtk
 sys-fs/btrfs-progs
-
+x11-misc/dunst
+x11-terms/alacritty
