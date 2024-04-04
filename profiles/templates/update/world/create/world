@@ -1,33 +1,8 @@
 # Calculate format=world name=world
 
 #?in(os_linux_pkglist, CLDT)!=#
-app-editors/nano
-app-editors/vim
 media-fonts/terminus-font
-sys-apps/busybox
-sys-apps/calculate-toolkit
-sys-apps/ifplugd
-sys-apps/less
-sys-kernel/dracut
-net-wireless/broadcom-sta
-net-wireless/rtl8814au
-net-wireless/wireless-tools
-net-wireless/wpa_supplicant
-sys-firmware/b43-firmware
-sys-firmware/ipw2100-firmware
-sys-firmware/ipw2200-firmware
-app-arch/lbzip2
-app-arch/pigz
 app-misc/tmux
 app-text/tree
-sys-apps/texinfo
-sys-auth/pam_update
 sys-fs/btrfs-progs
-app-text/wgetpaste
-net-analyzer/nmap
-net-analyzer/traceroute
-net-dns/bind-tools
-net-misc/ntp
-net-misc/whois
-media-gfx/imagemagick
 
