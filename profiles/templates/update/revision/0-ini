@@ -1,0 +1,5 @@
+# Calculate format=samba name=ini.env ini(hyprland.revision)==
+
+[hyprland]
+revision = 20240404
+
