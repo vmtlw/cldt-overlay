@@ -1,13 +1,8 @@
 # Calculate format=world name=world
-app-containers/docker
-app-containers/docker-compose
-app-containers/lxc
 app-editors/vim
-app-editors/vscode
 app-misc/brightnessctl
 app-misc/jq
 app-misc/tmux
-app-shells/bash-completion
 app-shells/bash-completion
 app-shells/fzf
 app-text/tree
@@ -23,3 +18,7 @@ sys-apps/xdg-desktop-portal-gtk
 sys-fs/btrfs-progs
 x11-misc/dunst
 x11-terms/alacritty
+www-client/chromium
+sys-libs/gpm
+app-misc/ranger
+
