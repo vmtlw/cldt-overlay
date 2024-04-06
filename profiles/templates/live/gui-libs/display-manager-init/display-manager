@@ -1,0 +1,9 @@
+# Calculate path=/etc/conf.d comment=#
+
+CHECKVT=7
+
+#?pkg(x11-misc/sddm)!=#
+DISPLAYMANAGER="sddm"
+START_STOP_ARGS=
+#pkg#
+

@@ -1,0 +1,8 @@
+# Calculate format=samba path=/var/lib/calculate name=calculate.env merge=x11-misc/sddm cl_setup==session||cl_setup==
+
+[main]
+cl_home_crypt_set = #-cl_install_home_crypt_set-#
+
+[install]
+cl_autologin = #-cl_autologin-#
+
