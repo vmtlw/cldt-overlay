@@ -1,9 +1,0 @@
-# Calculate format=kde name=sddm.conf
-
-#?cl_autologin!=#
-[Autologin]
-User=guest
-[Autologin]
-!User=
-!Session=
-#cl_autologin#

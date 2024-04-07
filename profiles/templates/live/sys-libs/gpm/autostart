@@ -1,0 +1,2 @@
+# Calculate link=/etc/init.d/gpm symbolic pkg(sys-libs/gpm)!=||cl_autologin!=&&os_install_root_type!=livecd force path=/etc/runlevels/default name=gpm
+
