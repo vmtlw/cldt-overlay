@@ -1,4 +1,3 @@
-# Hyperland 
-gui-wm/hyprland
-dev-libs/hyprlang
-gui-libs/hyprcursor
+# Calculate
+dev-cpp/sdbus-c++ ~amd64
+media-video/pipewire ~amd64
