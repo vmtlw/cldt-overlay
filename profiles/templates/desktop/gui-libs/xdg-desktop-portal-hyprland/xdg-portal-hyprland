@@ -1,4 +1,4 @@
- Calculate path=~/.config/hypr name=xdg-portal-hyprland comment=#
+# Calculate path=~/.config/hypr name=xdg-portal-hyprland comment=#
 
 #!/bin/bash
 sleep 1
