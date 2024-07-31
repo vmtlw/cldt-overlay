@@ -17,7 +17,6 @@ media-video/pipewire
 sys-fs/btrfs-progs
 sys-libs/gpm
 sys-process/htop
-www-client/chromium
 x11-apps/xdm
 x11-misc/dunst
 x11-terms/kitty
