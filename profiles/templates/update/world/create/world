@@ -23,5 +23,7 @@ x11-terms/kitty
 gui-libs/display-manager-init
 gui-apps/hyprlock
 net-misc/networkmanager
+app-admin/sudo
+
 
 
