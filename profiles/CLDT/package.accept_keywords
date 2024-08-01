@@ -1,3 +1,5 @@
 # Calculate
 dev-cpp/sdbus-c++ ~amd64
 media-video/pipewire ~amd64
+gui-libs/hyprutils ~amd64
+gui-apps/hyprlock ~amd64
