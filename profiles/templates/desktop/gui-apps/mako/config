@@ -1,3 +1,5 @@
+# Calculate path=~/config/mako
+
 sort=-time
 layer=overlay
 background-color=#2e3440
