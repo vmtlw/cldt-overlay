@@ -32,9 +32,9 @@ Calculate Linux project on GitHub: https://github.com/calculatelinux
 **Using calculate utilities (recommended):**  
 * [Download](https://wiki.calculate-linux.org/desktop) Calculate Linux Scratch (CLS) image  
 * Prepare a new OS build by running the command  
-`cl-builder-prepare --iso /[imagepath]/[isoname].iso `
+`cl-builder-prepare --iso /[imagepath]/[isoname].iso --id distros:CLDT/amd64/20`
 * Update the OS build by running the command  
-`cl-builder-update -f`
+  `cl-builder-update -o on -e on -C  on -v on -f`
 * Update the OS build profile by running the command  
 `cl-builder-profile --id distros:CLS/amd64/20 --url https://github.com/vmtlw/cldt-overlay.git CLDT`
 * Log in to chroot by running the command from root or using sudo  
