@@ -2,30 +2,6 @@
 
 ## Hyprland Profile for Calculate Linux Desktop  
 
-It is developed based on the original Calculate Linux profiles and is compatible with calculate utilities  
-
-The official website of the Calculate Linux project: https://www.calculate-linux.org  
-Calculate Linux project on GitHub: https://github.com/calculatelinux  
-
-***Warning: This is an unofficial profile for personal use. If you use it, then only at your own risk!!!***  
-
-### How do I switch to a profile in the installed Calculate linux Desktop OS?  
-**Using calculate utilities (recommended):**  
-* Press CTRL-ALT-F1 to enter console mode  
-* Stop the display manager by running a command from root or using sudo  
-`/etc/init.d/display-manager stop`
-* Update the Calculate Linux Desktop OS by running the command  
-`cl-update --scan on`
-* Update the Calculate Linux Desktop OS profile by running the command  
-`cl-update-profile --url https://github.com/vmtlw/cldt-overlay.git CLDT`
-* Update the Calculate Linux Desktop OS to reformat the world by running the command  
-`cl-update --scan on`
-* Rename the user's home directory (for proper user configuration) by running the command from root or using sudo  
-`mv /home/[username] /home/[username].old`
-* Start the display manager by running the command from root or using sudo  
-`/etc/init.d/display-manager start`
-* Restart your PC  
-
 ***Warning: It may take a long time. You will lose the installed programs that are not in the profile templates.***  
 
 ### How to create an image on the Calculate linux Desktop OS?  
@@ -36,7 +12,7 @@ Calculate Linux project on GitHub: https://github.com/calculatelinux
 * Update the OS build by running the command  
   `cl-builder-update -o on -e on -C  on -v on -f`
 * Update the OS build profile by running the command  
-`cl-builder-profile --id distros:CLS/amd64/20 --url https://github.com/vmtlw/cldt-overlay.git CLDT`
+  `cl-builder-profile --id distros:CLDT/amd64/20 --url https://github.com/vmtlw/cldt-overlay.git CLDT/20`
 * Log in to chroot by running the command from root or using sudo  
 `chroot /run/calculate/mount/distros_CLS_amd64_20/`
 * In chroot, fix the cyclic dependency error (temporarily) by running the command  
