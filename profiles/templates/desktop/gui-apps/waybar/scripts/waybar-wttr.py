@@ -1,3 +1,5 @@
+# Calculate chmod=755 comment=#
+
 #!/usr/bin/env python
 
 import json
