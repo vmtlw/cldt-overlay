@@ -1,4 +1,4 @@
-# Calculate path=~/config/mako
+# Calculate path=~/.config/mako
 
 sort=-time
 layer=overlay

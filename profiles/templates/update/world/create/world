@@ -39,6 +39,8 @@ gui-apps/slurp
 gnome-base/gvfs
 lxde-base/lxappearance
 gnome-extra/polkit-gnome
-gui-wm/wayfire
+www-client/chromium
+xfce-base/thunar
+
 
 
