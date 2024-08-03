@@ -36,6 +36,9 @@ x11-themes/dracula-gtk-theme
 app-shells/starship
 gui-apps/swaybg
 gui-apps/slurp
-
+gnome-base/gvfs
+lxde-base/lxappearance
+gnome-extra/polkit-gnome
+gui-wm/wayfire
 
 
