@@ -2,8 +2,8 @@
 
 CHECKVT=7
 
-#?pkg(x11-misc/sddm)!=#
-DISPLAYMANAGER="sddm"
+#?pkg(gui-apps/tuigreet)!=#
+DISPLAYMANAGER="greetd"
 START_STOP_ARGS=
 #pkg#
 
