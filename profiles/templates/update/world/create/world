@@ -39,8 +39,7 @@ gui-apps/slurp
 gnome-base/gvfs
 lxde-base/lxappearance
 gnome-extra/polkit-gnome
-www-client/chromium
 xfce-base/thunar
-
+gui-apps/grim
 
 
