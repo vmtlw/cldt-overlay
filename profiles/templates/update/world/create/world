@@ -27,7 +27,15 @@ x11-terms/kitty
 gui-libs/greetd
 gui-apps/waybar
 gui-apps/mako
-
+gui-apps/swaylock-effects
+net-wireless/bluez
+media-fonts/noto-emoji
+media-fonts/jetbrains-mono
+gui-apps/swappy
+x11-themes/dracula-gtk-theme
+app-shells/starship
+gui-apps/swaybg
+gui-apps/slurp
 
 
 
