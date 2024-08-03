@@ -1,5 +1,6 @@
 # Calculate format=world name=world
 
+app-admin/sudo
 app-editors/vim
 app-misc/brightnessctl
 app-misc/ranger
@@ -7,6 +8,9 @@ app-misc/tmux
 app-shells/bash-completion
 app-shells/fzf
 app-text/tree
+gui-apps/hyprlock
+gui-apps/tuigreet
+gui-apps/waybar
 gui-apps/wl-clipboard
 gui-apps/wofi
 gui-libs/xdg-desktop-portal-hyprland
@@ -14,12 +18,16 @@ gui-wm/hyprland
 media-fonts/terminus-font
 media-sound/playerctl
 media-video/pipewire
+net-misc/networkmanager
 sys-fs/btrfs-progs
 sys-libs/gpm
 sys-process/htop
-x11-apps/xdm
 x11-misc/dunst
 x11-terms/kitty
-gui-libs/display-manager-init
-gui-apps/hyprlock
-gui-apps/tuigreet
+gui-libs/greetd
+gui-apps/waybar
+gui-apps/mako
+
+
+
+

@@ -1,0 +1,35 @@
+#!/sbin/openrc-run
+# Copyright 2024 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+name="hyprland daemon"
+description="Hyprland Wayland Compositor"
+command=/usr/bin/Hyprland
+command_args="${hyprland_args}"
+pidfile="/run/hyprland.pid"
+
+
+
+depend() {
+    need dbus
+    after network
+}
+
+start() {
+    ebegin "Starting Hyprland"
+    start-stop-daemon --start --exec ${command} --make-pidfile --pidfile ${pidfile} --background
+    eend $?
+}
+
+stop() {
+    ebegin "Stopping Hyprland"
+    start-stop-daemon --stop --pidfile ${pidfile}
+    eend $?
+}
+
+restart() {
+    ebegin "Restarting Hyprland"
+    stop
+    start
+    eend $?
+}
