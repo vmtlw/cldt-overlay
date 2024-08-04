@@ -1,4 +1,4 @@
-# Calculate os_root_type==livecd
+# Calculate path=~/
 alias su="sudo su -"
 dbus-run-session Hyprland
 

@@ -1,3 +1,5 @@
+# Calculate path=~ comment=#
+
 if [[ $- != *i* ]] ; then
 	return
 fi
