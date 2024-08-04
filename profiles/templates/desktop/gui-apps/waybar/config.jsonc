@@ -31,14 +31,6 @@
         }
     },
     
-    "custom/power_profile":{
-        //shows the current power profile and switches to next on click
-        "exec": "asusctl profile -p | sed s:'Active profile is'::",
-        "interval": 30,
-        "format": "󰈐{}", 
-        "on-click": "asusctl profile -n; pkill -SIGRTMIN+8 waybar",
-        "signal": 8
-    },
 
    "custom/weather" : {
         //shows the current weather and forecast
@@ -81,7 +73,7 @@
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
 
-    "pulseaudio": {
+    "wireplumber": {
         "format": "{icon} {volume}%",
         "tooltip": false,
         "format-muted": " Muted",
