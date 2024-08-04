@@ -17,7 +17,6 @@ gui-libs/xdg-desktop-portal-hyprland
 gui-wm/hyprland
 media-fonts/terminus-font
 media-sound/playerctl
-media-video/pipewire
 net-misc/networkmanager
 sys-fs/btrfs-progs
 sys-libs/gpm
@@ -43,4 +42,10 @@ xfce-base/thunar
 gui-apps/grim
 media-fonts/symbols-nerd-font
 x11-themes/bibata-cursor-theme
-
+www-client/chromium:0/stable
+media-video/mpv
+dev-libs/libunibreak
+sys-firmware/sof-firmware
+media-sound/alsa-utils
+media-sound/bluez-alsa
+media-sound/pulseaudio-daemon
