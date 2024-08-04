@@ -13,5 +13,5 @@ gui-apps/tuigreet ~amd64
 gui-apps/swaylock-effects **
 media-sound/pamixer ~amd64
 x11-themes/dracula-gtk-theme ~amd64
-
+media-fonts/symbols-nerd-font **
 
