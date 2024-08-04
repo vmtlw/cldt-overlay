@@ -51,3 +51,4 @@ media-sound/bluez-alsa
 media-sound/pulseaudio-daemon
 app-editors/mousepad
 media-gfx/nomacs
+gui-libs/wlogout
