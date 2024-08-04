@@ -24,7 +24,7 @@ sys-libs/gpm
 sys-process/htop
 x11-misc/dunst
 x11-terms/kitty
-gui-libs/greetd
+gui-libs/greetd:
 gui-apps/waybar
 gui-apps/mako
 gui-apps/swaylock-effects
@@ -41,5 +41,5 @@ lxde-base/lxappearance
 gnome-extra/polkit-gnome
 xfce-base/thunar
 gui-apps/grim
-
+media-fonts/symbols-nerd-font
 
