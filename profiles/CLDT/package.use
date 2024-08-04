@@ -4,3 +4,4 @@ gui-apps/waybar network wifi tray mpd
 gui-libs/wlroots x11-backend
 virtual/rust -profiler
 app-editors/mousepad -spell
+gui-libs/wlogout bash-completions
