@@ -48,7 +48,6 @@ dev-libs/libunibreak
 sys-firmware/sof-firmware
 media-sound/alsa-utils
 media-sound/bluez-alsa
-media-sound/pulseaudio-daemon
 app-editors/mousepad
 media-gfx/nomacs
 gui-libs/wlogout
