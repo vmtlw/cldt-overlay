@@ -51,3 +51,4 @@ media-sound/bluez-alsa
 app-editors/mousepad
 media-gfx/nomacs
 gui-libs/wlogout
+sys-apps/inxi
