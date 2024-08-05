@@ -1,0 +1,12 @@
+# Calculate format=kde path=/etc/xdg/autostart os_audio==alsa||pkg(media-sound/pavucontrol)!=
+
+[Desktop Entry]
+Name=VolumeIcon
+Comment=A lightweight volume control that sits in your systray
+#?os_audio!=alsa#
+Exec=volumeicon -d hw:0
+#!os_audio#
+Exec=volumeicon
+#os_audio#
+Terminal=false
+Type=Application
