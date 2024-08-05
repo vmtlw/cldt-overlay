@@ -42,6 +42,8 @@ _fzf_comprun() {
 }
 
 
-eval "$(zoxide init zsh)"
+eval "$(zoxide init bash)"
+eval "$(zsh --bash)"
+
 
 alias cd="z"
