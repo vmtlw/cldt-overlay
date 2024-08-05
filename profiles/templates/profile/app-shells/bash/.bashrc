@@ -47,3 +47,4 @@ eval "$(fzf --bash)"
 
 
 alias cd="z"
+
