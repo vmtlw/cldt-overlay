@@ -16,3 +16,4 @@ x11-themes/dracula-gtk-theme ~amd64
 media-fonts/symbols-nerd-font **
 x11-themes/bibata-cursor-theme ~amd64
 gui-libs/wlogout ~amd64
+app-shells/zoxide ~amd64
