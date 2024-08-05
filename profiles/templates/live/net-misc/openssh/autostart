@@ -1,0 +1,1 @@
+# Calculate link=/etc/init.d/display-manager symbolic pkg(net-misc/openssh)!=&&os_install_root_type!=livecd force path=/etc/runlevels/default name=sshd
