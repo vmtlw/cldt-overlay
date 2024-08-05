@@ -54,3 +54,5 @@ gui-libs/wlogout
 sys-apps/inxi
 app-shells/zoxide
 sys-apps/fd
+www-plugins/chrome-bitwarden
+www-plugins/chrome-ublock
