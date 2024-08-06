@@ -56,3 +56,4 @@ app-shells/zoxide
 sys-apps/fd
 www-plugins/chrome-bitwarden
 www-plugins/chrome-ublock
+app-misc/cliphist
