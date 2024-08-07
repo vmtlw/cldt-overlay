@@ -1,6 +1,14 @@
 # calculate-hyprland 
 
-## Hyprland Profile for Calculate Linux Desktop  
+## Hyprland Profile for Calculate Linux Desktop 
+
+USSIES:
+1) sound (alsa/pipewire) - https://forums.gentoo.org/viewtopic-t-1169508.html
+2) configure touchpad gestures - 3 and 4 fingers
+3) fix tmux (problem with xdg-desktop-session)
+4) restore the template responsible for /etc/hosts
+5) configure cl-desktop to run each time you log into a session (possibly using tuigreet)
+6) copy-past (I want to bind a two-finger touch to pressing the middle mouse button) 
 
 ***Warning: It may take a long time. You will lose the installed programs that are not in the profile templates.***  
 
@@ -22,3 +30,4 @@
 The new image will be located in `/var/calculate/linux/`  
 
 ***Warning: Takes a long time.***  
+
