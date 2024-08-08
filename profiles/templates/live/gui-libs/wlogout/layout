@@ -32,7 +32,7 @@
     "keybind" : "u"
 }
 {
-    "label" : "",
+    "label" : "reboot",
     "action" : "loginctl reboot",
     "text" : "Перезагрузка",
     "keybind" : "r"
