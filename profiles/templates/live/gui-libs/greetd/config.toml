@@ -10,7 +10,7 @@ vt = 7
 
 # `agreety` is the bundled agetty/login-lookalike. You can replace `/bin/sh`
 # with whatever you want started, such as `sway`.
-command = "tuigreet --remember --user-menu --time --asterisks --user-menu-min-uid 1000"
+command = "tuigreet --remember --user-menu --time --asterisks --user-menu-min-uid 1000 --theme border=magenta;text=cyan;prompt=green;time=red;action=blue;button=yellow;container=black;input=red --power-shutdown 'loginctl shutdown' --power-reboot 'loginctl reboot'"
 
 # The user to run the command as. The privileges this user must have depends
 # on the greeter. A graphical greeter may for example require the user to be

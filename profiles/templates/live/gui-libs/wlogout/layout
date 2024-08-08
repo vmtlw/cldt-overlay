@@ -3,38 +3,38 @@
 
 {
     "label" : "lock",
-    "action" : "swaylock",
-    "text" : "Lock",
+    "action" : "hyprlock",
+    "text" : "Заблокировать",
     "keybind" : "l"
 }
 {
     "label" : "hibernate",
-    "action" : "systemctl hibrid-sleep",
-    "text" : "loginctl ",
+    "action" : "loginctl hibernate",
+    "text" : "Гибернация",
     "keybind" : "h"
 }
 {
     "label" : "logout",
     "action" : "loginctl terminate-user $USER",
-    "text" : "Logout",
+    "text" : "Выход",
     "keybind" : "e"
 }
 {
     "label" : "shutdown",
     "action" : "loginctl poweroff",
-    "text" : "Shutdown",
+    "text" : "Выключение",
     "keybind" : "s"
 }
 {
     "label" : "suspend",
     "action" : "loginctl suspend",
-    "text" : "Suspend",
+    "text" : "Сон",
     "keybind" : "u"
 }
 {
-    "label" : "reboot",
+    "label" : "",
     "action" : "loginctl reboot",
-    "text" : "Reboot",
+    "text" : "Перезагрузка",
     "keybind" : "r"
 }
 
