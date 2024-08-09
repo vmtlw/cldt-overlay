@@ -1,0 +1,21 @@
+#!/sbin/openrc-run
+# Copyright 2024 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+output_log="/var/log/spoof-dpi.log"
+error_log="/var/log/spoof-dpi.log"
+pidfile="/var/log/spoof-dpi.log"
+name="spoof-dpi daemon"
+description=""
+command=/usr/bin/spoof-dpi
+command_args="${command_args}"
+command_background="true"
+
+
+depend() {
+	use net
+}
+
+start_pre() {
+    checkpath -f -o root -m 0600 $output_log
+}
