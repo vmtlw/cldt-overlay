@@ -47,4 +47,4 @@ eval "$(fzf --bash)"
 
 
 alias cd="z"
-
+alias su="sudo su -"
