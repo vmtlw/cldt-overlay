@@ -1,4 +1,6 @@
-# Calculate comment=# chmod=0440 os_install_root_type==livecd
+# Calculate comment=# chmod=0440
+# and for only in livecd add to header "os_install_root_type==livecd":
+# comment=# chmod=0440 os_install_root_type==livecd
 
 Defaults        env_keep += "HOME"
 Defaults        env_keep += "QT_PLUGIN_PATH"
