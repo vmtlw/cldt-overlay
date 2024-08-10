@@ -1,0 +1,8 @@
+# Calculate path=/etc/cron.d chmod=755 comment=#  mergepkg()!= 
+
+    SHELL=/bin/bash
+    PATH=/sbin:/bin:/usr/sbin:/usr/bin
+    HOME=/
+
+    # run btrbk
+    0 0 * * *   root    /usr/bin/btrbk run &>/dev/null
