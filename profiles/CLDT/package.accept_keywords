@@ -1,8 +1,9 @@
 # Calculate
-
+ 
 app-misc/cliphist ~amd64 
 app-shells/zoxide ~amd64
 dev-cpp/sdbus-c++ ~amd64
+gui-apps/hypridle ~amd64
 gui-apps/hyprlock ~amd64
 gui-apps/qtgreet ~amd64
 gui-apps/swaylock-effects **
