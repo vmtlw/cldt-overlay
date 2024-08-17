@@ -50,7 +50,7 @@ sys-firmware/sof-firmware
 sys-fs/btrfs-progs
 sys-libs/gpm
 sys-process/htop
-www-client/chromium:0/stable
+www-client/google-chrome
 www-plugins/chrome-bitwarden
 www-plugins/chrome-ublock
 x11-misc/dunst
