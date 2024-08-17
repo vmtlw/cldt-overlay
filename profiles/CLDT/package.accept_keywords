@@ -6,7 +6,7 @@ dev-cpp/sdbus-c++ ~amd64
 gui-apps/hypridle ~amd64
 gui-apps/hyprlock ~amd64
 gui-apps/qtgreet ~amd64
-gui-apps/swaylock-effects **
+gui-apps/swaylock-effects ~amd64
 gui-apps/tuigreet ~amd64
 gui-dfl/dfl-applications ~amd64
 gui-dfl/dfl-ipc ~amd64
