@@ -1,1 +1,0 @@
-# Calculate append=remove path=/etc/alsa/conf.d name=51-pulseaudio-probe.conf os_audio==alsa
