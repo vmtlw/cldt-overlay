@@ -1,9 +1,0 @@
-# Calculate format=kde path=/etc/xdg/autostart
-[Desktop Entry]
-#?os_audio==alsa#
-Hidden=true
-OnlyShowIn=
-#!os_audio#
-!Hidden=
-!OnlyShowIn=
-#os_audio#
