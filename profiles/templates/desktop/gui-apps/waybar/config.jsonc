@@ -8,7 +8,7 @@
     "height": 50,
     "modules-left": ["clock","custom/weather","wlr/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["network", "bluetooth", "temperature","custom/power_profile","battery","backlight","wireplumber","wireplumber#microphone","tray"],
+    "modules-right": ["network", "bluetooth", "temperature","custom/power_profile","battery","backlight","wireplumber","tray"],
     "hyprland/window": {
         "format": "{}"
     },
@@ -46,8 +46,7 @@
     },
 
     "clock": {
-        "format": "{: %I:%M %p   %a, %b %e}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+        "format": "{:%I:%M %p   %a, %b %e}"
     },
 
     "backlight": {
@@ -74,33 +73,16 @@
 
     "wireplumber": {
         "format": "{icon} {volume}%",
-        "tooltip": false,
-        "format-muted": " Muted",
-        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@",
+        "format-muted": "",
+	"scroll-step": 0.2,
+	"on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@",
         "on-scroll-up": "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+",
         "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
-        "scroll-step": 5,
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        }
-    },
+	"format-icons": {
+     		 "default": ["󰕿 ", "󰖀 ", "󰕾 "]
+    }
 
-    "wireplumber#microphone": {
-        "format": "{format_source}",
-        "format-source": " {volume}%",
-        "format-source-muted": " Muted",
-        "on-click": "",
-        "on-scroll-up": "",
-        "on-scroll-down": "",
-        "scroll-step": 5
     },
-    
     "temperature": {
         "thermal-zone": 1,
         "format": "{temperatureC}°C ",
@@ -109,7 +91,7 @@
     },
 
     "network": {
-        "interface": "wlp0*", // (Optional) To force the use of this interface
+        "interface": "eno*", // (Optional) To force the use of this interface
         "format-wifi": "  {signalStrength}%",
         "format-ethernet": "{ipaddr}/{cidr}",
         "tooltip-format": "{essid} - {ifname} via {gwaddr}",
