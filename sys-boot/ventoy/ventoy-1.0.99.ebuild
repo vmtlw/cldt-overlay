@@ -19,6 +19,6 @@ BDEPEND=""
 
 src_install() {
 local DESTDIR="/opt/ventoy"
-exeinto "${DESTDIR}"
-doexe *
+insinto "${DESTDIR}"
+doins -r *
 }
