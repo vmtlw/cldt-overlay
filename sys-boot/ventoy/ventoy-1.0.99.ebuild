@@ -21,5 +21,5 @@ src_install() {
 local DESTDIR="/opt/ventoy"
 insinto "${DESTDIR}"
 doins -r *
-fperms -R 755 $DESTDIR/*.sh
+fperms +x /opt/ventoy/*.sh
 }
