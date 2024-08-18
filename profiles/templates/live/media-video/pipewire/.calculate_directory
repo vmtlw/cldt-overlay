@@ -1,1 +1,1 @@
-Calculate link=/usr/share/pipewire path=/etc name=pipewire mirror force
+# Calculate append=skip

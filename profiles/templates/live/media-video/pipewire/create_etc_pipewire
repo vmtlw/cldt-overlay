@@ -1,0 +1,4 @@
+# Calculate run=/bin/bash
+
+cp -a /usr/share/pipewire /etc
+
