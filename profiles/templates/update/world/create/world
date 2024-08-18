@@ -1,5 +1,4 @@
 # Calculate format=world name=world
-
 app-admin/sudo
 app-backup/btrbk
 app-editors/mousepad
@@ -17,6 +16,7 @@ dev-libs/libunibreak
 gnome-base/gvfs
 gnome-extra/polkit-gnome
 gui-apps/grim
+gui-apps/hypridle
 gui-apps/hyprlock
 gui-apps/mako
 gui-apps/slurp
@@ -24,7 +24,6 @@ gui-apps/swappy
 gui-apps/swaybg
 gui-apps/swaylock-effects
 gui-apps/tuigreet
-gui-apps/waybar
 gui-apps/waybar
 gui-apps/wl-clipboard
 gui-apps/wofi
@@ -37,9 +36,6 @@ media-fonts/jetbrains-mono
 media-fonts/noto-emoji
 media-fonts/symbols-nerd-font
 media-fonts/terminus-font
-media-gfx/nomacs
-media-sound/alsa-utils
-media-sound/bluez-alsa
 media-sound/playerctl
 media-video/mpv
 net-misc/networkmanager
@@ -58,5 +54,3 @@ x11-terms/kitty
 x11-themes/bibata-cursor-theme
 x11-themes/dracula-gtk-theme
 xfce-base/thunar
-gui-apps/hypridle
-app-editors/vscode
