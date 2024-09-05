@@ -20,3 +20,4 @@ media-sound/pamixer ~amd64
 media-video/pipewire ~amd64
 x11-themes/bibata-cursor-theme ~amd64
 x11-themes/dracula-gtk-theme ~amd64
+app-misc/brightnessctl ~amd64
