@@ -54,3 +54,7 @@ x11-terms/kitty
 x11-themes/bibata-cursor-theme
 x11-themes/dracula-gtk-theme
 xfce-base/thunar
+app-containers/docker
+app-containers/docker-cli
+app-containers/docker-compose
+app-containers/lxc
