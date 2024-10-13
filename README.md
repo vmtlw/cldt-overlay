@@ -1,33 +1,50 @@
-# calculate-hyprland 
+# calculate-hyprland
 
-## Hyprland Profile for Calculate Linux Desktop 
+## Hyprland Profile for Calculate Linux Desktop
 
-USSIES:
-1) sound (alsa/pipewire) - https://forums.gentoo.org/viewtopic-t-1169508.html
-2) configure touchpad gestures - 3 and 4 fingers
-3) fix tmux (problem with xdg-desktop-session)
-4) restore the template responsible for /etc/hosts
-5) configure cl-desktop to run each time you log into a session (possibly using tuigreet)
-6) copy-past (I want to bind a two-finger touch to pressing the middle mouse button) 
+### Проблемы:
+1. **Звук** (alsa/pipewire) - [Подробнее](https://forums.gentoo.org/viewtopic-t-1169508.html)
+2. **Настройка жестов на тачпаде** - поддержка жестов с 3 и 4 пальцами
+3. **Исправление tmux** (проблема с xdg-desktop-session)
+4. **Восстановление файла `/etc/hosts`**
+5. **Автоматический запуск cl-desktop** при каждом входе в сессию (возможно, через tuigreet)
+6. **Настройка копирования и вставки** (привязка жеста двумя пальцами к нажатию средней кнопки мыши)
 
-***Warning: It may take a long time. You will lose the installed programs that are not in the profile templates.***  
+> **Предупреждение:** Это может занять много времени. Вы потеряете установленные программы, которых нет в шаблонах профиля.
 
-### How to create an image on the Calculate linux Desktop OS?  
-**Using calculate utilities (recommended):**  
-* [Download](https://wiki.calculate-linux.org/desktop) Calculate Linux Scratch (CLS) image  
-* Prepare a new OS build by running the command  
-`cl-builder-prepare --iso /[imagepath]/[isoname].iso --id distros:CLDT/amd64/20`
-* Update the OS build by running the command  
-  `cl-builder-update -o on -e on -C  on -v on -f`
-* Update the OS build profile by running the command  
-  `cl-builder-profile --id distros:CLDT/amd64/20 --url https://github.com/vmtlw/cldt-overlay.git CLDT/20`
-* Log in to chroot by running the command from root or using sudo  
-`chroot /run/calculate/mount/distros_CLDT_amd64_20/`
-`cl-builder-image --id distros:CLDT/amd64/20 --video off `
-* Complete the OS build by running the command  
-`cl-builder-break` 
+---
 
-The new image will be located in `/var/calculate/linux/`  
+### Как создать образ в Calculate Linux Desktop OS?
 
-***Warning: Takes a long time.***  
+**Рекомендуемый способ — использовать утилиты Calculate:**
+
+1. [Скачать](https://wiki.calculate-linux.org/desktop) образ Calculate Linux Scratch (CLS)
+2. Подготовить новый билд ОС:
+    ```bash
+    cl-builder-prepare --iso /[путь_к_образу]/[название_образа].iso --id distros:CLDT/amd64/20
+    ```
+3. Обновить сборку ОС:
+    ```bash
+    cl-builder-update -o on -e on -C on -v on -f
+    ```
+4. Обновить профиль сборки ОС:
+    ```bash
+    cl-builder-profile --id distros:CLDT/amd64/20 --url https://github.com/vmtlw/cldt-overlay.git CLDT/20
+    ```
+5. Войти в chroot:
+    ```bash
+    chroot /run/calculate/mount/distros_CLDT_amd64_20/
+    ```
+6. Создать образ:
+    ```bash
+    cl-builder-image --id distros:CLDT/amd64/20 --video off
+    ```
+7. Завершить сборку:
+    ```bash
+    cl-builder-break
+    ```
+
+Новый образ будет находиться в директории `/var/calculate/linux/`.
+
+> **Предупреждение:** Процесс создания может занять значительное время.
 
