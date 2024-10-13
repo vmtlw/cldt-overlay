@@ -45,9 +45,7 @@ sys-firmware/sof-firmware
 sys-fs/btrfs-progs
 sys-libs/gpm
 sys-process/htop
-www-client/google-chrome
-www-plugins/chrome-bitwarden
-www-plugins/chrome-ublock
+www-client/chromium
 x11-misc/dunst
 x11-terms/alacritty
 x11-themes/bibata-cursor-theme
