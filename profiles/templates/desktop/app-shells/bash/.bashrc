@@ -42,9 +42,7 @@ _fzf_comprun() {
 }
 
 
-eval "$(zoxide init bash)"
 eval "$(fzf --bash)"
 
 
-alias cd="z"
 alias su="sudo su -"

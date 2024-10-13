@@ -10,7 +10,6 @@ app-misc/tmux
 app-shells/bash-completion
 app-shells/fzf
 app-shells/starship
-app-shells/zoxide
 app-text/tree
 dev-libs/libunibreak
 gnome-base/gvfs
@@ -50,7 +49,7 @@ www-client/google-chrome
 www-plugins/chrome-bitwarden
 www-plugins/chrome-ublock
 x11-misc/dunst
-x11-terms/kitty
+x11-terms/alacritty
 x11-themes/bibata-cursor-theme
 x11-themes/dracula-gtk-theme
 xfce-base/thunar
