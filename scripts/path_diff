@@ -1,0 +1,9 @@
+a) берёшь файл, сохраняешь как `a/setup.py`, копируешь в `b/setup.py`
+в `b/setup.py` делаешь как надо
+потом делаешь 
+
+```bash
+diff -NaurBwdp a/setup.py b/setup.py > .../path/to/overlay/cat-cat/app/files/0001-setup-license-fix.patch
+```
+
+б) практически то же самое, но в одном файле, и с `git`
