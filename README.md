@@ -23,15 +23,15 @@
     ```bash
     cl-builder-prepare --iso /[путь_к_образу]/[название_образа].iso --id distros:CLDT/amd64/20
     ```
-3. Обновить сборку ОС:
-    ```bash
-    cl-builder-update -o on -e on -C on -v on -f
-    ```
-4. Обновить профиль сборки ОС:
+3. Обновить профиль сборки ОС:
     ```bash
     cl-builder-profile --id distros:CLDT/amd64/20 --url https://github.com/vmtlw/cldt-overlay.git CLDT/20
     ```
-5. Войти в chroot:
+4. Обновить сборку ОС:
+    ```bash
+    cl-builder-update -o on -e on -C on -v on -f
+    ```
+5. при необходимости войти в chroot можно выполнив:
     ```bash
     chroot /run/calculate/mount/distros_CLDT_amd64_20/
     ```
