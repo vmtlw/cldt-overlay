@@ -27,7 +27,7 @@ gui-apps/waybar
 gui-apps/wl-clipboard
 gui-apps/wofi
 gui-libs/greetd:
-gui-libs/wlogout
+gui-apps/wlogout
 gui-libs/xdg-desktop-portal-hyprland
 gui-wm/hyprland
 lxde-base/lxappearance

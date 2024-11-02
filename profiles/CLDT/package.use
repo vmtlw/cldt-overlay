@@ -1,7 +1,7 @@
 # Calculate
-sys-apps/calculate-utils -client -qt5
+sys-apps/calculate-utils -qt5
 gui-apps/waybar network wifi tray mpd 
 gui-libs/wlroots x11-backend
 virtual/rust -profiler
 app-editors/mousepad -spell
-gui-libs/wlogout bash-completions
+gui-apps/wlogout bash-completions

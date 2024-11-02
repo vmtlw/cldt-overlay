@@ -11,16 +11,14 @@ SRC_URI="https://github.com/ArtsyMacaw/${PN}/archive/refs/tags/${PV}.tar.gz -> $
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="layershell doc bash-completions fish-completions zsh-completions"
 
 DEPEND="x11-libs/gtk+[wayland(-)]
 		dev-libs/gobject-introspection
 		doc? ( app-text/scdoc )
 		layershell? ( gui-libs/gtk-layer-shell )"
-RDEPEND="
-		bash-completions? ( app-shells/bash-completion )
-"
+RDEPEND="${DEPEND}"
 
 src_configure() {
 	local emesonargs=(
@@ -39,4 +37,3 @@ src_compile() {
 src_install() {
 	meson_src_install
 }
-
