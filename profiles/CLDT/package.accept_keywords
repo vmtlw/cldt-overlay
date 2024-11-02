@@ -20,3 +20,5 @@ media-sound/pamixer ~amd64
 media-video/pipewire ~amd64
 x11-themes/bibata-cursor-theme ~amd64
 x11-themes/dracula-gtk-theme ~amd64
+gui-libs/xdg-desktop-portal-hyprland ~amd64
+gui-apps/hypridle ~amd64
