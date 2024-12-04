@@ -1,6 +1,10 @@
 # Calculate format=world name=world
 app-admin/sudo
 app-backup/btrbk
+app-containers/docker
+app-containers/docker-cli
+app-containers/docker-compose
+app-containers/lxc
 app-editors/mousepad
 app-editors/vim
 app-misc/brightnessctl
@@ -15,7 +19,6 @@ dev-libs/libunibreak
 gnome-base/gvfs
 gnome-extra/polkit-gnome
 gui-apps/grim
-gui-apps/hypridle
 gui-apps/hyprlock
 gui-apps/slurp
 gui-apps/swappy
@@ -24,9 +27,8 @@ gui-apps/swaylock-effects
 gui-apps/tuigreet
 gui-apps/waybar
 gui-apps/wl-clipboard
-gui-apps/wofi
-gui-libs/greetd:
 gui-apps/wlogout
+gui-apps/wofi
 gui-libs/xdg-desktop-portal-hyprland
 gui-wm/hyprland
 lxde-base/lxappearance
@@ -36,6 +38,7 @@ media-fonts/symbols-nerd-font
 media-fonts/terminus-font
 media-sound/playerctl
 media-video/mpv
+net-misc/chrony
 net-misc/networkmanager
 net-wireless/bluez
 sys-apps/fd
@@ -49,8 +52,3 @@ x11-terms/alacritty
 x11-themes/bibata-cursor-theme
 x11-themes/dracula-gtk-theme
 xfce-base/thunar
-app-containers/docker
-app-containers/docker-cli
-app-containers/docker-compose
-app-containers/lxc
-net-misc/chrony
