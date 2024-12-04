@@ -17,7 +17,6 @@ gnome-extra/polkit-gnome
 gui-apps/grim
 gui-apps/hypridle
 gui-apps/hyprlock
-gui-apps/mako
 gui-apps/slurp
 gui-apps/swappy
 gui-apps/swaybg
@@ -46,7 +45,6 @@ sys-fs/btrfs-progs
 sys-libs/gpm
 sys-process/htop
 www-client/chromium
-x11-misc/dunst
 x11-terms/alacritty
 x11-themes/bibata-cursor-theme
 x11-themes/dracula-gtk-theme
