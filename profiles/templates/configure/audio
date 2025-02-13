@@ -1,1 +1,1 @@
-# Calculate merge=media-sound/alsa-utils,media-sound/pulseaudio,media-video/pipewire,net-wireless/bluez cl_setup==audio||cl_setup== append=skip 
+# Calculate media-sound/alsa-utils,media-sound/pavucontrol,media-sound/pulseaudio,media-video/pipewire,net-wireless/bluez cl_setup==audio||cl_setup== append=skip 
